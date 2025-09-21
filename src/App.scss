@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Satoshi', sans-serif;
+}
+.signup-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: 38px;
+  background-color: black;
+  color: white;
+  a {
+    color: white;
+    background-color: black;
+    font-size: 14px;
+  }
+}
