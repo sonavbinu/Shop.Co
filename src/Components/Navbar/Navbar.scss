@@ -3,4 +3,40 @@
   align-items: center;
   margin-block-start: 20px;
   justify-content: space-around;
+  .primary-menu {
+    display: flex;
+    gap: 24px;
+    font-size: 16px;
+    .shop-dropmenu {
+      display: flex;
+      gap: 10px;
+    }
+  }
+  .input-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 30px;
+    color: #acacac;
+    width: 577px;
+    height: 48px;
+    .fa-solid {
+      position: relative;
+      left: 20px;
+      top: 36px;
+    }
+    input {
+      width: 577px;
+      height: 48px;
+      padding-left: 50px;
+      border-radius: 30px;
+      background-color: #f0f0f0;
+      border: none;
+    }
+  }
+  .usercart-icon {
+    display: flex;
+    gap: 14px;
+  }
 }
