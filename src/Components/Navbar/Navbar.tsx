@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
       <div className="input-menu">
         <div className="input-wrapper">
           {' '}
-          <i className="fa-solid fa-magnifying-glass"></i>
+          <img src="/Frame.png" alt="" />
           <input type="text" placeholder="Search for products..." />
         </div>
       </div>
