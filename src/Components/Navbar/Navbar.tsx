@@ -24,8 +24,8 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       <div className="usercart-icon">
-        <i className="fa-solid fa-cart-shopping"></i>
-        <i className="fa-solid fa-user"></i>
+        <img src="/Vector.png" alt="" />
+        <img src="/user-icon.png" alt="" />
       </div>
     </div>
   );
